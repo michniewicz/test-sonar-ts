@@ -25,5 +25,7 @@ export function foo(): string {
   console.log(foo2(100, 1));
   console.log(foo3(100, 3));
 
-  return "foo";
+  const a = 'foo';
+  console.log('a');
+  return a;
 }
