@@ -1,4 +1,13 @@
 // src/index.ts
+
+// Example 1: Implicit Any
+function add(x: any, y: any) {
+  return x + y;
+}
+
+
 export function foo(): string {
-  return 'foo';
+  const result = add(5, "10");
+
+  return result;
 }
