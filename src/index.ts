@@ -14,11 +14,9 @@ function foo2(itemPrice: number, quantity: number): number {
 
 function foo3(itemPrice: number, quantity: number): number {
   const discount = 0.1;
-  const taxRate = 0.08;
   const subtotal = itemPrice * quantity;
   const discountedPrice = subtotal - subtotal * discount;
-  const totalPriceWithTax = discountedPrice + discountedPrice * taxRate;
-  return totalPriceWithTax;
+  return discountedPrice;
 }
 
 
