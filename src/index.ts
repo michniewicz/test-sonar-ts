@@ -1,6 +1,6 @@
 // src/index.ts
 export function foo(): string {
   const a = 'foo';
-  console.log('a');
+  console.log(a);
   return a;
 }
