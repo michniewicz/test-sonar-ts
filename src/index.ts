@@ -8,6 +8,7 @@ function add(x: any, y: any) {
 
 export function foo(): string {
   const result = add(5, "10");
+  console.log(result);
 
-  return result;
+  return "foo";
 }
